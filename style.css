@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.header{
+     display: flex;
+     height: 60px;
+
+}
+.logo{
+ width: 20%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.navbar{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+   
+
+    a{
+        text-decoration: none;
+        color: red;
+    }
+}
+
+.background-image{
+    background-image: url(./images/blog\ banner.png);
+    width: 110vw;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 500px){
+ .background-image {
+    width: 100%;
+    /* margin-left: 20px; */
+  }
+
+}
+ 
+
+.under-text{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+/* @media screen and (max-width: 500px){
+    .under-text{
+        width: 50%;
+    }
+} */
+
+
+.overall-image1{
+    display: flex;
+     margin: 80px 20px 0px 120px;
+
+}
+.overall-image2{
+    display: flex;
+    margin: 20px 20px 0px 120px;
+
+}
+.overall-image3{
+    display: flex;
+    margin: 20px 20px 0px 120px;
+}
+.overall-image4{
+    display: flex;
+    margin: 20px 20px 0px 120px;
+}
+
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.responsive {
+ display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .overall-image1{
+    width: 85%; 
+    display: flex;
+    margin: 100px 100px 0px 30px;
+  }
+  .overall-image2{
+    width: 85%;
+     display: flex;
+    margin: 20px 100px 0px 30px;
+  }
+
+  .overall-image3{
+    width: 85%;
+      display: flex;
+    margin: 20px 100px 0px 30px;
+  }
+
+  .overall-image4{
+    width: 85%;
+    display: flex;
+    margin: 20px 100px 0px 30px;
+  }
+
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 0px;
+  gap: 20px;
+}
+
+.testimonialHolder {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.testimonialImage {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden; 
+  overflow-y: hidden;
+  border-radius: 50%;
+}
+
+.testimonialText {
+  width: 40%;
+
+  p {
+    font-size: 16px;
+    font: 400;
+  }
+}
+
+.testimonialTextText {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 500px){
+  .testimonialHolder {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .testimonialImage {
+    width: 50%;
+  }
+
+  .testimonialText {
+    width: 50%;
+  }
+
+
+}
+
+
+.footer{
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footerwrapper{
+  width: 80%;
+  display: flex;
+  justify-content:space-between;
+}
+.footer-info{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  width: 32%;
+    padding: 50px 0px;
+    color: white;
+}
+
+.footer-down{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    color: white;
+    flex-direction: column;
+
+}
+
+.border{
+  border: 1px solid white;
+  width: 100%;
+}
+@media screen and (max-width: 500px){
+  .footer-info{
+    width: 100%;
+  }
+
+
+  .footerwrapper{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+}
